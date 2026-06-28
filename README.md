@@ -1,57 +1,145 @@
-📊 YouTube Earnings Analysis & Dashboard
+# 📊 YouTube Earnings Analysis & Interactive Dashboard
 
-This project involves analyzing YouTube channel earnings data using Python and creating an interactive dashboard in Power BI. The dataset includes key metrics such as subscribers, video views, earnings, and category-wise insights.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
 
-🚀 Project Overview
+## 🚀 Project Overview
 
-Data Processing: Cleaned and analyzed the dataset using Python (pandas, NumPy, Matplotlib, and Seaborn).
+This project focuses on analyzing **YouTube channel earnings and performance metrics** using **Python** and building an **interactive Power BI dashboard** to uncover meaningful business insights.
 
-Insights Extracted:
+The dataset contains information about:
 
-Correlation between subscribers and video views.
+* 👥 Subscribers
+* ▶️ Video Views
+* 💰 Monthly & Yearly Earnings
+* 🌍 Country Information
+* 📈 Subscriber Growth Trends
+* 🎵 Channel Categories
 
-Category-wise video views distribution.
+The objective is to transform raw YouTube data into actionable insights through data analysis and visualization.
 
-Monthly and yearly earnings trends.
+---
 
-Country-wise subscriber distribution.
+## 🎯 Project Objectives
 
-30-day subscriber growth trends.
+✔ Analyze relationships between subscribers, video views, and earnings.
 
-Dashboard: Built an interactive Power BI dashboard for visualization and analysis.
+✔ Identify top-performing YouTube categories.
 
-📂 Files Included
+✔ Understand country-wise distribution of channels and subscribers.
 
-data/ – Contains cleaned and raw datasets.
+✔ Monitor monthly and yearly revenue patterns.
 
-notebooks/ – Jupyter notebooks for data analysis.
+✔ Analyze recent subscriber growth trends.
 
-dashboard.pbix – Power BI dashboard file.
+---
 
-Dashboard.png – Snapshot of the final dashboard.
+## 🛠️ Tech Stack
 
-README.md – Project details and setup instructions.
+| Tool          | Purpose                        |
+| ------------- | ------------------------------ |
+| 🐍 Python     | Data Cleaning & Analysis       |
+| 📊 Pandas     | Data Manipulation              |
+| 🔢 NumPy      | Numerical Operations           |
+| 📈 Matplotlib | Data Visualization             |
+| 🎨 Seaborn    | Statistical Visualization      |
+| 📉 Power BI   | Interactive Dashboard Creation |
 
-📸 Dashboard Preview
+---
 
+## 📂 Project Structure
 
+```bash
+📁 YouTube-Earnings-Analysis
+│
+├── 📁 data
+│   ├── Raw Dataset
+│   └── Cleaned Dataset
+│
+├── 📁 notebooks
+│   └── Jupyter Analysis Notebook
+│
+├── 📄 dashboard.pbix
+├── 🖼️ Dashboard.png
+├── 📄 README.md
+└── 📄 requirements.txt
+```
 
-🛠️ Tools Used
+---
 
-Python: Pandas, NumPy, Matplotlib, Seaborn
+## 📊 Key Insights
 
-Power BI: Data visualization and dashboard creation
+### 🎵 Top Category Performance
 
-📌 Key Takeaways
+* The **Music** category generates the highest number of total video views.
 
-The Music category leads in total video views.
+### 💰 Revenue Analysis
 
-YouTube earnings show a monthly revenue of $586.86M and yearly revenue of $7.05B.
+* Monthly Revenue: **$586.86 Million**
+* Yearly Revenue: **$7.05 Billion**
 
-A declining trend in 30-day subscriber growth.
+### 📈 Subscriber Growth
 
-Geographical insights on YouTube earnings and subscribers.
+* The dataset indicates a **declining trend in 30-day subscriber growth** among many channels.
 
-🔗 Connect with Me
+### 🌍 Geographic Insights
 
-GitHub: developer-arbazLinkedIn: Arbaz Khan
+* Subscriber and earnings distribution varies significantly across different countries.
+
+### 🔥 Correlation Analysis
+
+* Channels with higher subscriber counts generally achieve significantly more video views and earnings.
+
+---
+
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="Dashboard.png" alt="YouTube Dashboard Preview" width="900">
+</p>
+
+---
+
+## ✨ Dashboard Features
+
+📌 KPI Cards for Subscribers, Views, and Earnings
+
+📌 Category-wise Video Views Analysis
+
+📌 Country-wise Subscriber Distribution
+
+📌 Monthly & Yearly Earnings Trends
+
+📌 Interactive Filters and Drill-Down Analysis
+
+📌 Subscriber Growth Monitoring
+
+---
+
+## 🎯 Business Value
+
+This dashboard helps content creators, analysts, and businesses:
+
+* Understand revenue-driving content categories.
+* Identify high-performing regions and audiences.
+* Monitor channel growth trends.
+* Make data-driven content and monetization decisions.
+
+---
+
+## 👨‍💻 Author
+
+**Arbaz Khan**
+
+📧 Email: [arbazkhan21223@gmail.com](mailto:arbazkhan21223@gmail.com)
+
+🔗 LinkedIn: https://www.linkedin.com/in/arbaz-data-analyst/
+
+🔗 GitHub: https://github.com/developer-arbaz
+
+---
+
+⭐ If you found this project useful, don't forget to **Star this repository** and connect with me for more Data Analytics and Power BI projects.
